@@ -1,0 +1,12 @@
+C:\Users\Garik_IT\Desktop\V7ExtSample2023\V8ClientMonitor\V8ClientMonitor\V8ClientMonitor\bin\Release\V8ClientMonitor.dll
+C:\Users\Garik_IT\Desktop\V7ExtSample2023\V8ClientMonitor\V8ClientMonitor\V8ClientMonitor\bin\Release\V8ClientMonitor.pdb
+C:\Users\Garik_IT\Desktop\V7ExtSample2023\V8ClientMonitor\V8ClientMonitor\V8ClientMonitor\obj\Release\V8ClientMonitor.csproj.AssemblyReference.cache
+C:\Users\Garik_IT\Desktop\V7ExtSample2023\V8ClientMonitor\V8ClientMonitor\V8ClientMonitor\obj\Release\V8ClientMonitor.csproj.CoreCompileInputs.cache
+C:\Users\Garik_IT\Desktop\V7ExtSample2023\V8ClientMonitor\V8ClientMonitor\V8ClientMonitor\obj\Release\V8ClientMonitor.dll
+C:\Users\Garik_IT\Desktop\V7ExtSample2023\V8ClientMonitor\V8ClientMonitor\V8ClientMonitor\obj\Release\V8ClientMonitor.pdb
+C:\Users\Garik_IT\Desktop\V7ExtSample2023\V8ClientMonitor\V8ClientMonitor\V8ClientMonitor\bin\Release\DllRegistration\RegClientMonitor.bat
+C:\Users\Garik_IT\Desktop\V7ExtSample2023\V8ClientMonitor\V8ClientMonitor\V8ClientMonitor\bin\Release\DllRegistration\UnRegClientMonitor.bat
+C:\Users\Garik_IT\Desktop\V7ExtSample2023\V8ClientMonitor\V8ClientMonitor\V8ClientMonitor\obj\Release\V8ClientMonitor.Forms.Main_Form.resources
+C:\Users\Garik_IT\Desktop\V7ExtSample2023\V8ClientMonitor\V8ClientMonitor\V8ClientMonitor\obj\Release\V8ClientMonitor.Forms.Pin_Input_Form.resources
+C:\Users\Garik_IT\Desktop\V7ExtSample2023\V8ClientMonitor\V8ClientMonitor\V8ClientMonitor\obj\Release\V8ClientMonitor.Properties.Resources.resources
+C:\Users\Garik_IT\Desktop\V7ExtSample2023\V8ClientMonitor\V8ClientMonitor\V8ClientMonitor\obj\Release\V8ClientMonitor.csproj.GenerateResource.cache
