@@ -1,13 +1,14 @@
 ﻿using System;
+using System.Drawing;
 using System.Windows.Forms;
 
 namespace V8ClientMonitor.Forms
 {
     public partial class Pin_Input_Form : Form
     {
-        InterceptMouse obj;
+        public InterceptMouse obj;
         public string pin;
-
+        
         public Pin_Input_Form()
         {
             InitializeComponent();

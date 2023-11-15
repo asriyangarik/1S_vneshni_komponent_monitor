@@ -15,11 +15,13 @@ namespace V8ClientMonitor
         /// имя компоненты писать в AddinLib->Addin-> public const string AddInName = "MonitorComponent";
         /// не менять GUID - ы в папке AddinLib
         /// событие в 1с генерирует статические методы класса V8Data 
+        /// методы и свойство 1С видет через интерфейс IMonitorComponent который реализован в MonitorComponent
         /// </summary>
 
         public Screen[] screens = Screen.AllScreens;
         public Main_Form _MainForm = new Main_Form();
         public Pin_Input_Form PinInputForm;
+        public Smile_Form SmileForm;
 
         private string QartAnun;
         private string Balans;
@@ -156,10 +158,19 @@ namespace V8ClientMonitor
 
                     PinInputForm.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
                     PinInputForm.StartPosition = System.Windows.Forms.FormStartPosition.Manual;
-                    PinInputForm.Location = new System.Drawing.Point(1515, 15);
+                    if (screens.Length > 1)
+                    {
+                        PinInputForm.Location = screens[screens.Length - 1].WorkingArea.Location;
+                    }
+                    else
+                    {
+                        PinInputForm.Location = new System.Drawing.Point(1515, 15);
+                    }
+
                     PinInputForm.label2.Text = пинтекст;
                     PinInputForm.WindowState = System.Windows.Forms.FormWindowState.Maximized;
                     PinInputForm.Show();
+                    Cursor.Position = screens[screens.Length - 1].WorkingArea.Location;
                 };
                 if (pin1c == "-2")
                 {
@@ -175,8 +186,27 @@ namespace V8ClientMonitor
                     PinInputForm.label1.Text = "";
                     PinInputForm.pin = "";
                     PinInputForm.NextBT.Visible = false;
+                    PinInputForm.PinET.Text = "";
                     PinInputForm.label2.Text = пинтекст;
                 }
+                if (pin1c == "11") 
+                {
+                    SmileForm = new Smile_Form();
+                    SmileForm.ShowInTaskbar = false;
+                    SmileForm.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+                    SmileForm.StartPosition = System.Windows.Forms.FormStartPosition.Manual;
+                    if (screens.Length > 1)
+                    {
+                        SmileForm.Location = screens[screens.Length - 1].WorkingArea.Location;
+                    }
+                    else 
+                    {
+                        SmileForm.Location = new System.Drawing.Point(1515, 15);
+                    }
+                   
+                    SmileForm.WindowState = System.Windows.Forms.FormWindowState.Maximized;
+                    SmileForm.Show();
+                };
 
 
             }
@@ -206,18 +236,20 @@ namespace V8ClientMonitor
         {
             base.Init(connection);
 
-            if (screens.Length == 2)
+            if (screens.Length >1)
             {
                 _MainForm.ShowInTaskbar = false;
 
                 _MainForm.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
                 _MainForm.StartPosition = System.Windows.Forms.FormStartPosition.Manual;
-                _MainForm.Location = new System.Drawing.Point(1515, 15);
+               // _MainForm.Location = new System.Drawing.Point(1515, 15);
+                _MainForm.Location = screens[screens.Length - 1].WorkingArea.Location;
                 _MainForm.WindowState = System.Windows.Forms.FormWindowState.Maximized;
                 // kkkk.MouseMove += new System.Windows.Forms.MouseEventHandler();
                 //  kkkk.label1.Location = new System.Drawing.Point(kkkk.Size.Width - 300, 600); 
 
                 // kkkk.axWindowsMediaPlayer1.CanFocus = false;
+                
                 _MainForm.Show();
 
                 // MessageBox.Show("Constructor OK");

@@ -60,6 +60,12 @@
     <Compile Include="Forms\Pin_Input_Form.Designer.cs">
       <DependentUpon>Pin_Input_Form.cs</DependentUpon>
     </Compile>
+    <Compile Include="Forms\Smile_Form.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Smile_Form.Designer.cs">
+      <DependentUpon>Smile_Form.cs</DependentUpon>
+    </Compile>
     <Compile Include="IMonitorComponent.cs" />
     <Compile Include="AddinLib\RussianNameAttribute.cs" />
     <Compile Include="AddinLib\V8Data.cs" />
@@ -80,13 +86,18 @@
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <None Include="Resources\Рисунок2.jpg" />
+  </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="Forms\Main_Form.resx">
       <DependentUpon>Main_Form.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\Pin_Input_Form.resx">
       <DependentUpon>Pin_Input_Form.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Smile_Form.resx">
+      <DependentUpon>Smile_Form.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -95,6 +106,12 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\Bonus Chisht.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Рисунок3.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Рисунок4.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

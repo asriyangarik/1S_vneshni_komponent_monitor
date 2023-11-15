@@ -52,18 +52,19 @@
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 36F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label2.Location = new System.Drawing.Point(15, 66);
+            this.label2.Location = new System.Drawing.Point(15, 68);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(0, 55);
+            this.label2.Size = new System.Drawing.Size(44, 55);
             this.label2.TabIndex = 1;
+            this.label2.Text = "*";
             // 
             // groupBox1
             // 
             this.groupBox1.Controls.Add(this.label2);
             this.groupBox1.Controls.Add(this.label1);
-            this.groupBox1.Location = new System.Drawing.Point(12, 602);
+            this.groupBox1.Location = new System.Drawing.Point(12, 597);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(992, 124);
+            this.groupBox1.Size = new System.Drawing.Size(992, 132);
             this.groupBox1.TabIndex = 46;
             this.groupBox1.TabStop = false;
             // 
@@ -71,10 +72,11 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 36F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label1.Location = new System.Drawing.Point(15, 16);
+            this.label1.Location = new System.Drawing.Point(15, 12);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(0, 55);
+            this.label1.Size = new System.Drawing.Size(44, 55);
             this.label1.TabIndex = 0;
+            this.label1.Text = "*";
             // 
             // CanselBT
             // 
@@ -85,7 +87,7 @@
             this.CanselBT.FlatAppearance.MouseOverBackColor = System.Drawing.SystemColors.GradientInactiveCaption;
             this.CanselBT.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.CanselBT.Font = new System.Drawing.Font("Microsoft Sans Serif", 30F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.CanselBT.Location = new System.Drawing.Point(678, 472);
+            this.CanselBT.Location = new System.Drawing.Point(678, 475);
             this.CanselBT.Name = "CanselBT";
             this.CanselBT.Size = new System.Drawing.Size(326, 106);
             this.CanselBT.TabIndex = 45;
@@ -102,7 +104,7 @@
             this.NextBT.FlatAppearance.MouseOverBackColor = System.Drawing.SystemColors.GradientInactiveCaption;
             this.NextBT.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.NextBT.Font = new System.Drawing.Font("Microsoft Sans Serif", 65.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.NextBT.Location = new System.Drawing.Point(678, 177);
+            this.NextBT.Location = new System.Drawing.Point(678, 180);
             this.NextBT.Name = "NextBT";
             this.NextBT.Size = new System.Drawing.Size(326, 106);
             this.NextBT.TabIndex = 44;
@@ -114,8 +116,9 @@
             // PinET
             // 
             this.PinET.BackColor = System.Drawing.Color.White;
+            this.PinET.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.PinET.Font = new System.Drawing.Font("Microsoft Sans Serif", 39.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.PinET.Location = new System.Drawing.Point(742, 36);
+            this.PinET.Location = new System.Drawing.Point(742, 39);
             this.PinET.Name = "PinET";
             this.PinET.Size = new System.Drawing.Size(145, 56);
             this.PinET.TabIndex = 43;
@@ -129,7 +132,7 @@
             this.CleareBT.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Gray;
             this.CleareBT.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.CleareBT.Font = new System.Drawing.Font("Microsoft Sans Serif", 72F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.CleareBT.Location = new System.Drawing.Point(431, 472);
+            this.CleareBT.Location = new System.Drawing.Point(431, 475);
             this.CleareBT.Name = "CleareBT";
             this.CleareBT.Size = new System.Drawing.Size(173, 106);
             this.CleareBT.TabIndex = 42;
@@ -146,7 +149,7 @@
             this.NumBT0.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Gray;
             this.NumBT0.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.NumBT0.Font = new System.Drawing.Font("Microsoft Sans Serif", 72F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.NumBT0.Location = new System.Drawing.Point(12, 472);
+            this.NumBT0.Location = new System.Drawing.Point(12, 475);
             this.NumBT0.Name = "NumBT0";
             this.NumBT0.Size = new System.Drawing.Size(173, 106);
             this.NumBT0.TabIndex = 41;
@@ -163,7 +166,7 @@
             this.NumBT9.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Gray;
             this.NumBT9.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.NumBT9.Font = new System.Drawing.Font("Microsoft Sans Serif", 72F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.NumBT9.Location = new System.Drawing.Point(431, 336);
+            this.NumBT9.Location = new System.Drawing.Point(431, 339);
             this.NumBT9.Name = "NumBT9";
             this.NumBT9.Size = new System.Drawing.Size(173, 106);
             this.NumBT9.TabIndex = 40;
@@ -180,7 +183,7 @@
             this.NumBT8.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Gray;
             this.NumBT8.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.NumBT8.Font = new System.Drawing.Font("Microsoft Sans Serif", 72F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.NumBT8.Location = new System.Drawing.Point(221, 336);
+            this.NumBT8.Location = new System.Drawing.Point(221, 339);
             this.NumBT8.Name = "NumBT8";
             this.NumBT8.Size = new System.Drawing.Size(173, 106);
             this.NumBT8.TabIndex = 39;
@@ -197,7 +200,7 @@
             this.NumBT7.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Gray;
             this.NumBT7.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.NumBT7.Font = new System.Drawing.Font("Microsoft Sans Serif", 72F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.NumBT7.Location = new System.Drawing.Point(12, 336);
+            this.NumBT7.Location = new System.Drawing.Point(12, 339);
             this.NumBT7.Name = "NumBT7";
             this.NumBT7.Size = new System.Drawing.Size(173, 106);
             this.NumBT7.TabIndex = 38;
@@ -214,7 +217,7 @@
             this.NumBT6.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Gray;
             this.NumBT6.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.NumBT6.Font = new System.Drawing.Font("Microsoft Sans Serif", 72F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.NumBT6.Location = new System.Drawing.Point(431, 177);
+            this.NumBT6.Location = new System.Drawing.Point(431, 180);
             this.NumBT6.Name = "NumBT6";
             this.NumBT6.Size = new System.Drawing.Size(173, 106);
             this.NumBT6.TabIndex = 37;
@@ -231,7 +234,7 @@
             this.NumBT5.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Gray;
             this.NumBT5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.NumBT5.Font = new System.Drawing.Font("Microsoft Sans Serif", 72F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.NumBT5.Location = new System.Drawing.Point(221, 177);
+            this.NumBT5.Location = new System.Drawing.Point(221, 180);
             this.NumBT5.Name = "NumBT5";
             this.NumBT5.Size = new System.Drawing.Size(173, 106);
             this.NumBT5.TabIndex = 36;
@@ -248,7 +251,7 @@
             this.NumBT4.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Gray;
             this.NumBT4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.NumBT4.Font = new System.Drawing.Font("Microsoft Sans Serif", 72F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.NumBT4.Location = new System.Drawing.Point(12, 177);
+            this.NumBT4.Location = new System.Drawing.Point(12, 180);
             this.NumBT4.Name = "NumBT4";
             this.NumBT4.Size = new System.Drawing.Size(173, 106);
             this.NumBT4.TabIndex = 35;
@@ -265,7 +268,7 @@
             this.NumBT3.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Gray;
             this.NumBT3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.NumBT3.Font = new System.Drawing.Font("Microsoft Sans Serif", 72F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.NumBT3.Location = new System.Drawing.Point(431, 14);
+            this.NumBT3.Location = new System.Drawing.Point(431, 17);
             this.NumBT3.Name = "NumBT3";
             this.NumBT3.Size = new System.Drawing.Size(173, 106);
             this.NumBT3.TabIndex = 34;
@@ -282,7 +285,7 @@
             this.NumBT2.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Gray;
             this.NumBT2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.NumBT2.Font = new System.Drawing.Font("Microsoft Sans Serif", 72F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.NumBT2.Location = new System.Drawing.Point(221, 14);
+            this.NumBT2.Location = new System.Drawing.Point(221, 17);
             this.NumBT2.Name = "NumBT2";
             this.NumBT2.Size = new System.Drawing.Size(173, 106);
             this.NumBT2.TabIndex = 33;
@@ -299,7 +302,7 @@
             this.NumBT1.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Gray;
             this.NumBT1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.NumBT1.Font = new System.Drawing.Font("Microsoft Sans Serif", 72F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.NumBT1.Location = new System.Drawing.Point(12, 14);
+            this.NumBT1.Location = new System.Drawing.Point(12, 17);
             this.NumBT1.Name = "NumBT1";
             this.NumBT1.Size = new System.Drawing.Size(173, 106);
             this.NumBT1.TabIndex = 32;
@@ -311,7 +314,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.Maroon;
+            this.BackColor = System.Drawing.Color.DarkGray;
             this.ClientSize = new System.Drawing.Size(1016, 741);
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.CanselBT);

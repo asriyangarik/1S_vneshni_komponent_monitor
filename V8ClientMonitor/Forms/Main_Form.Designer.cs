@@ -49,6 +49,7 @@
             // 
             // City_picture
             // 
+            this.City_picture.BackColor = System.Drawing.Color.White;
             this.City_picture.BackgroundImage = global::V8ClientMonitor.Properties.Resources.Bonus_Chisht;
             this.City_picture.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.City_picture.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
@@ -62,7 +63,7 @@
             // 
             // groupBox1
             // 
-            this.groupBox1.BackColor = System.Drawing.SystemColors.Control;
+            this.groupBox1.BackColor = System.Drawing.Color.DarkGray;
             this.groupBox1.Controls.Add(this.BonusTB);
             this.groupBox1.Controls.Add(this.BalansTB);
             this.groupBox1.Controls.Add(this.BonCardText);
@@ -133,13 +134,13 @@
             // 
             // g
             // 
-            this.g.BackColor = System.Drawing.SystemColors.Control;
+            this.g.BackColor = System.Drawing.Color.DarkGray;
             this.g.Controls.Add(this.item_countTB);
             this.g.Controls.Add(this.ItemTB);
             this.g.FlatStyle = System.Windows.Forms.FlatStyle.System;
-            this.g.Location = new System.Drawing.Point(0, 380);
+            this.g.Location = new System.Drawing.Point(0, 383);
             this.g.Name = "g";
-            this.g.Size = new System.Drawing.Size(1019, 161);
+            this.g.Size = new System.Drawing.Size(1009, 161);
             this.g.TabIndex = 13;
             this.g.TabStop = false;
             // 
@@ -167,7 +168,7 @@
             // 
             // f
             // 
-            this.f.BackColor = System.Drawing.SystemColors.Control;
+            this.f.BackColor = System.Drawing.Color.DarkGray;
             this.f.Controls.Add(this.TotalText);
             this.f.Controls.Add(this.TotalTB);
             this.f.FlatStyle = System.Windows.Forms.FlatStyle.System;
@@ -180,22 +181,22 @@
             // TotalText
             // 
             this.TotalText.AutoSize = true;
-            this.TotalText.Font = new System.Drawing.Font("Microsoft Sans Serif", 48F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.TotalText.Font = new System.Drawing.Font("Microsoft Sans Serif", 39.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.TotalText.ForeColor = System.Drawing.Color.Black;
             this.TotalText.Location = new System.Drawing.Point(6, 10);
             this.TotalText.Name = "TotalText";
-            this.TotalText.Size = new System.Drawing.Size(323, 73);
+            this.TotalText.Size = new System.Drawing.Size(269, 61);
             this.TotalText.TabIndex = 2;
             this.TotalText.Text = "ԳՈՒՄԱՐ:";
             // 
             // TotalTB
             // 
             this.TotalTB.AutoSize = true;
-            this.TotalTB.Font = new System.Drawing.Font("Microsoft Sans Serif", 48F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.TotalTB.Font = new System.Drawing.Font("Microsoft Sans Serif", 39.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.TotalTB.ForeColor = System.Drawing.Color.Black;
             this.TotalTB.Location = new System.Drawing.Point(6, 88);
             this.TotalTB.Name = "TotalTB";
-            this.TotalTB.Size = new System.Drawing.Size(243, 73);
+            this.TotalTB.Size = new System.Drawing.Size(202, 61);
             this.TotalTB.TabIndex = 1;
             this.TotalTB.Text = "Сумма";
             // 
@@ -203,6 +204,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.DarkGray;
             this.ClientSize = new System.Drawing.Size(1016, 729);
             this.Controls.Add(this.City_picture);
             this.Controls.Add(this.groupBox1);

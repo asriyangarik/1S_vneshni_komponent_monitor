@@ -10,3 +10,4 @@ C:\Users\Garik_IT\Desktop\V7ExtSample2023\V8ClientMonitor\V8ClientMonitor\V8Clie
 C:\Users\Garik_IT\Desktop\V7ExtSample2023\V8ClientMonitor\V8ClientMonitor\V8ClientMonitor\obj\Debug\V8ClientMonitor.Properties.Resources.resources
 C:\Users\Garik_IT\Desktop\V7ExtSample2023\V8ClientMonitor\V8ClientMonitor\V8ClientMonitor\obj\Debug\V8ClientMonitor.csproj.GenerateResource.cache
 C:\Users\Garik_IT\Desktop\V7ExtSample2023\V8ClientMonitor\V8ClientMonitor\V8ClientMonitor\obj\Debug\V8ClientMonitor.Forms.Pin_Input_Form.resources
+C:\Users\Garik_IT\Desktop\V7ExtSample2023\V8ClientMonitor\V8ClientMonitor\V8ClientMonitor\obj\Debug\V8ClientMonitor.Forms.Smile_Form.resources
