@@ -1,0 +1,15 @@
+C:\Users\Garik_IT\Desktop\V7ExtSample2023\V8ClientMonitor\V8ClientMonitor\TestMonitor\bin\Debug\DllRegistration\RegClientMonitor.bat
+C:\Users\Garik_IT\Desktop\V7ExtSample2023\V8ClientMonitor\V8ClientMonitor\TestMonitor\bin\Debug\DllRegistration\UnRegClientMonitor.bat
+C:\Users\Garik_IT\Desktop\V7ExtSample2023\V8ClientMonitor\V8ClientMonitor\TestMonitor\bin\Debug\TestMonitor.exe.config
+C:\Users\Garik_IT\Desktop\V7ExtSample2023\V8ClientMonitor\V8ClientMonitor\TestMonitor\bin\Debug\TestMonitor.exe
+C:\Users\Garik_IT\Desktop\V7ExtSample2023\V8ClientMonitor\V8ClientMonitor\TestMonitor\bin\Debug\TestMonitor.pdb
+C:\Users\Garik_IT\Desktop\V7ExtSample2023\V8ClientMonitor\V8ClientMonitor\TestMonitor\bin\Debug\V8ClientMonitor.dll
+C:\Users\Garik_IT\Desktop\V7ExtSample2023\V8ClientMonitor\V8ClientMonitor\TestMonitor\bin\Debug\V8ClientMonitor.pdb
+C:\Users\Garik_IT\Desktop\V7ExtSample2023\V8ClientMonitor\V8ClientMonitor\TestMonitor\obj\Debug\TestMonitor.csproj.AssemblyReference.cache
+C:\Users\Garik_IT\Desktop\V7ExtSample2023\V8ClientMonitor\V8ClientMonitor\TestMonitor\obj\Debug\TestMonitor.Form1.resources
+C:\Users\Garik_IT\Desktop\V7ExtSample2023\V8ClientMonitor\V8ClientMonitor\TestMonitor\obj\Debug\TestMonitor.Properties.Resources.resources
+C:\Users\Garik_IT\Desktop\V7ExtSample2023\V8ClientMonitor\V8ClientMonitor\TestMonitor\obj\Debug\TestMonitor.csproj.GenerateResource.cache
+C:\Users\Garik_IT\Desktop\V7ExtSample2023\V8ClientMonitor\V8ClientMonitor\TestMonitor\obj\Debug\TestMonitor.csproj.CoreCompileInputs.cache
+C:\Users\Garik_IT\Desktop\V7ExtSample2023\V8ClientMonitor\V8ClientMonitor\TestMonitor\obj\Debug\TestMonitor.csproj.CopyComplete
+C:\Users\Garik_IT\Desktop\V7ExtSample2023\V8ClientMonitor\V8ClientMonitor\TestMonitor\obj\Debug\TestMonitor.exe
+C:\Users\Garik_IT\Desktop\V7ExtSample2023\V8ClientMonitor\V8ClientMonitor\TestMonitor\obj\Debug\TestMonitor.pdb

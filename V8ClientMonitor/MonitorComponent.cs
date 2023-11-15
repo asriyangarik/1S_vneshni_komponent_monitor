@@ -1,4 +1,6 @@
 ﻿
+using System;
+using System.Collections.Generic;
 using System.Runtime.InteropServices;
 using System.Windows.Forms;
 using V8ClientMonitor.Forms;
@@ -236,6 +238,9 @@ namespace V8ClientMonitor
         {
             base.Init(connection);
 
+            Array.Sort(screens,new ScreenComparer());
+
+            //var zz = screens.OrderBy(_screen => _screen.WorkingArea.Location).ToArray();
             if (screens.Length >1)
             {
                 _MainForm.ShowInTaskbar = false;
@@ -275,5 +280,15 @@ namespace V8ClientMonitor
         }
 
         #endregion
+
+        class ScreenComparer : IComparer<Screen>
+        {
+            public int Compare(Screen x, Screen y)
+            {
+                return string.Compare(x.WorkingArea.X.ToString(), y.WorkingArea.X.ToString(), StringComparison.Ordinal);
+            }
+        }
     }
+
+    
 }
